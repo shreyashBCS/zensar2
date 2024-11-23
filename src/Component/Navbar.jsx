@@ -74,23 +74,89 @@ function Navbar() {
                                 <li><Link className="dropdown-item" >Something else here</Link></li>
                             </ul>
                         </li>
-                        <li className="nav-item">
+
+
+
+                        {/* --------------------------------------------------------------------------------------------------- */}
+                        {/* <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/services">Services</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/industries">Industries</Link>
-                        </li>
-                        <li className="nav-item" >
-                            <Link className="nav-link" to="/insight">Insight</Link>
-                        </li> <li className="nav-item">
-                            <Link className="nav-link" to="/people">People</Link>
-                        </li> <li className="nav-item">
-                            <Link className="nav-link" to="/aboutzensar">About Zensar</Link>
+                        </li> */}
+
+
+
+                        <li className="nav-item dropdown">
+                            <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Industries
+                            </Link>
+                            <ul className="dropdown-menu ">
+                                <li><Link className="dropdown-item" >Hi-tech Engineering</Link></li>
+                                <li><Link className="dropdown-item" >Banking and Financial Services </Link></li>
+                                <li><Link className="dropdown-item" >Insurance</Link></li>
+                                <li><Link className="dropdown-item" >Healthcare and Life Sciences </Link></li>
+                                <li><Link className="dropdown-item" >Telecom </Link></li>
+                                <li><Link className="dropdown-item" >Consumer Services </Link></li>
+                                <li><Link className="dropdown-item" > Manufacturing </Link></li>
+
+
+                            </ul>
                         </li>
 
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Contact</Link>
+                        {/* ------------------------------------------------------------------------------------------------- */}
+
+                        <li className="nav-item dropdown">
+                            <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Insight
+                            </Link>
+                            <ul className="dropdown-menu">
+                                <li><Link className="dropdown-item" >Careers</Link></li>
+                                <li><Link className="dropdown-item" >Diversity,Equity and Inclusion </Link></li>
+                                <li><Link className="dropdown-divider" > Z @ Z:Gen Z at Zensar </Link>   </li>
+                            </ul>
                         </li>
+
+                        {/* ------------------------------------------------------------------------------------------------------------------------ */}
+
+                        <li className="nav-item dropdown">
+                            <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                People
+                            </Link>
+                            <ul className="dropdown-menu">
+                                <li><Link className="dropdown-item" >Action</Link></li>
+                                <li><Link className="dropdown-item" >Another action</Link></li>
+                                <li><Link className="dropdown-divider" />aaaaa</li>
+                                <li><Link className="dropdown-item" >Something else here</Link></li>
+                            </ul>
+                        </li>
+
+                        {/* ------------------------------------------------------------------ */}
+
+
+                        <li className="nav-item dropdown">
+                            <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About Zensar
+                            </Link>
+                            <ul className="dropdown-menu">
+                                <li><Link className="dropdown-item" >Action</Link></li>
+                                <li><Link className="dropdown-item" >Another action</Link></li>
+                                <li><Link className="dropdown-divider" />aaaaa</li>
+                                <li><Link className="dropdown-item" >Something else here</Link></li>
+                            </ul>
+                        </li>
+
+                        {/* ------------------------------------------------------------------- */}
+
+                        <li className="nav-item dropdown">
+                            <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact
+                            </Link>
+                            <ul className="dropdown-menu">
+                                <li><Link className="dropdown-item" >Action</Link></li>
+                                <li><Link className="dropdown-item" >Another action</Link></li>
+                                <li><Link className="dropdown-divider" />aaaaa</li>
+                                <li><Link className="dropdown-item" >Something else here</Link></li>
+                            </ul>
+                        </li>
+
 
 
                     </ul>

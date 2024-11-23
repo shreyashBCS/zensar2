@@ -8,12 +8,12 @@ const items = [
     // Each item is now a div containing an image and overlay content
 
 
-    <div key="1" style={{ position: "relative", width: "90vw", height: "100vh" }}>
+    <div key="1" style={{ position: "relative", width: "100vw", height: "100vh" }}>
         <img
             src="https://via.placeholder.com/1920x1080?text=Image+1"
             alt="Image 1"
             style={{
-                width: "90%",
+                width: "100%",
                 height: "100%",
                 objectFit: "cover",
             }}
