@@ -67,7 +67,7 @@ function Navbar() {
                             <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </Link>
-                            <ul className="dropdown-menu">
+                            <ul className="dropdown-menu ">
                                 <li><Link className="dropdown-item" >Action</Link></li>
                                 <li><Link className="dropdown-item" >Another action</Link></li>
                                 <li><Link className="dropdown-divider" />aaaaa</li>
@@ -107,7 +107,7 @@ function Navbar() {
                             <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Insight
                             </Link>
-                            <ul className="dropdown-menu">
+                            <ul className="dropdown-menu ">
                                 <li><Link className="dropdown-item" >Careers</Link></li>
                                 <li><Link className="dropdown-item" >Diversity,Equity and Inclusion </Link></li>
                                 <li><Link className="dropdown-divider" > Z @ Z:Gen Z at Zensar </Link>   </li>
@@ -121,10 +121,9 @@ function Navbar() {
                                 People
                             </Link>
                             <ul className="dropdown-menu">
-                                <li><Link className="dropdown-item" >Action</Link></li>
-                                <li><Link className="dropdown-item" >Another action</Link></li>
-                                <li><Link className="dropdown-divider" />aaaaa</li>
-                                <li><Link className="dropdown-item" >Something else here</Link></li>
+                                <li><Link className="dropdown-item" >Careers</Link></li>
+                                <li><Link className="dropdown-item" >Diversity,Equity and Inclusion </Link></li>
+                                <li><Link className="dropdown-divider" />Z @Z: Gen Z at Zensar</li>
                             </ul>
                         </li>
 

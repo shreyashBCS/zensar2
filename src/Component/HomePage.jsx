@@ -5,13 +5,17 @@ import Insight from './Insight'
 import Industries from './Industries'
 import Carousel from './Carousel'
 import ClientStories from './ClientStories'
+import Blog from './Blog'
+import MediaCard from './MediaCard'
 function HomePage() {
   return (
     <>
       <Carousel />
+      <Blog />
       <Insight />
       <ClientStories />
       <Industries />
+      <MediaCard />
       <Form />
 
       <Footer />
