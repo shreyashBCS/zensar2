@@ -100,7 +100,7 @@ function Footer() {
         {/* Bottom section */}
         <div className="d-flex justify-content-between align-items-center">
           {/* Social icons */}
-          <div className="d-flex space-x-4">
+          <div className="d-flex gap-3">
             <FaLinkedin className="text-white" />
             <FaFacebook className="text-white" />
             <FaInstagram className="text-white" />

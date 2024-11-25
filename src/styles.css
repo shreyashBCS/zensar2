@@ -1,0 +1,18 @@
+.dropdown-menu {
+    background-color: #f8f9fa;
+    /* Light background */
+    border: 1px solid #ced4da;
+    /* Border color */
+}
+
+.dropdown-item {
+    color: #343a40;
+    /* Text color */
+}
+
+.dropdown-item:hover {
+    background-color: #e9ecef;
+    /* Hover background color */
+    color: #007bff;
+    /* Hover text color */
+}

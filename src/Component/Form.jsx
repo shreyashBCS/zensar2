@@ -17,7 +17,6 @@ const Form = () => {
                 <h3 className="mb-4">Send us a message</h3>
                 <h4 className="mb-4">We'd love to hear from you!</h4>
                 <form>
-
                     <div className="row g-4">
                         {/* Left Column */}
                         <div className="col-md-6">
@@ -101,15 +100,41 @@ const Form = () => {
                                     className="form-control"
                                 />
                             </div>
-                            <div className="mb-3">
-                                <button className="btn btn-light w-100">Submit</button>
-                            </div>
                         </div>
-
                     </div>
 
+                    {/* Checkboxes Section */}
+                    <div className="form-check mt-3 d-flex ">
+                        <input
+                            className="form-check-input"
+                            type="checkbox"
+                            id="policyCheck"
+                            required
+                        />
+                        <label className="form-check-label" htmlFor="policyCheck">
+                                  I  agree with Zensar's privacy policy
+                        </label>
+                    </div>
+                    <div className="form-check mt-2 form-check mt-3 d-flex ">
+                        <input
+                            className="form-check-input"
+                            type="checkbox"
+                            id="emailConsent"
+                            required
+                        />
+                        <label className="form-check-label" htmlFor="emailConsent">
+                            I would like to subscribe to Zensar’s blogs, thought leadership assets, and updates                        </label>
+                    </div>
+
+                    {/* Submit Button */}
+                    <div className="mt-4 form-check mt-3 d-flex ">
+                        <button className="btn btn-light " type="submit">
+                            Submit
+                        </button>
+                    </div>
                 </form>
             </div>
+
         </>
     );
 };
