@@ -115,7 +115,7 @@ const Form = () => {
                                 required
                             />
                             <label className="form-check-label" htmlFor="policyCheck">
-                                I agree with Zensar's privacy policy
+                                I agree with Zensar's privacy policy.
                             </label>
                         </div>
                         <div className="form-check mb-3"> {/* Checkbox 2 */}
@@ -126,7 +126,7 @@ const Form = () => {
                                 required
                             />
                             <label className="form-check-label" htmlFor="emailConsent">
-                                I would like to subscribe to Zensar’s blogs, thought leadership assets, and updates
+                                I would like to subscribe to Zensar’s blogs, thought leadership assets, and updates.
                             </label>
                         </div>
                         <div> {/* Button Section */}

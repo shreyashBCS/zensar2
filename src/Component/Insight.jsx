@@ -29,6 +29,7 @@ function Insight() {
                 <a href="#" className="position-absolute bottom-0  start-0 w-10 bg-black text-white p-2 text-decoration-none" >Go somewhere &#8594;</a>
               </div>
             </div>
+            <p>Top Payment Trends 2024 and Beyond</p>
           </div>
 
           {/* Card 2 */}
@@ -42,6 +43,8 @@ function Insight() {
                 <a href="#" className="position-absolute bottom-0 start-0 w-10 bg-black text-white p-2 text-decoration-none">Go somewhere &#8594;</a>
               </div>
             </div>
+            <p>Neurobiological Profiling : Revoltionizing Risk...</p>
+
           </div>
 
           {/* Card 3 */}
@@ -55,6 +58,8 @@ function Insight() {
                 <a href="#" className="position-absolute bottom-0 start-0 w-10 bg-black text-white p-2 text-decoration-none">Go somewhere &#8594;</a>
               </div>
             </div>
+            <p>Digital Twin : A futuristic Approach To Resource Planning </p>
+
           </div>
         </div>
       </div>

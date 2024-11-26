@@ -44,6 +44,7 @@ function Industries() {
                 </a>
               </div>
             </div>
+            <p>Hi-tech Engineering Services</p>
           </div>
 
 
@@ -63,6 +64,8 @@ function Industries() {
                 </a>
               </div>
             </div>
+            <p>Banking and Financial Services</p>
+
           </div>
 
           {/* Card 3 */}
@@ -80,6 +83,8 @@ function Industries() {
                 </a>
               </div>
             </div>
+            <p>Insurance Services</p>
+
           </div>
 
           {/* Card 4 */}
@@ -97,7 +102,10 @@ function Industries() {
                 </a>
               </div>
             </div>
+            <p>Retail and Consumer Services</p>
+
           </div>
+
         </div>
       </div>
     </div>

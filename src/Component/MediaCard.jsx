@@ -7,7 +7,7 @@ import z11 from '../img/z-11.webp'
 function MediaCard() {
     return (
         <Container className="my-5">
-            <h2 className="text-center mb-4">News and Updates</h2>
+            <h2 className="mb-4 mb-2 ">News and Updates</h2>
             <Row className="g-4 mb-4"> {/* Added mb-4 here */}
                 {/* First Card */}
                 <Col md={4}>
