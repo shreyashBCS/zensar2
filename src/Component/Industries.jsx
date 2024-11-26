@@ -1,4 +1,9 @@
 import React from 'react';
+import z1 from '../img/z1.webp'
+import z2 from '../img/z2.webp'
+import z3 from '../img/z3.webp'
+import z4 from '../img/z4.webp'
+
 
 function Industries() {
   return (
@@ -27,13 +32,13 @@ function Industries() {
           {/* Card 1 */}
           <div className="col-md-3 mb-4">
             <div className="card position-relative" style={{ width: '16rem', height: '290px' }}>
-              <img src="" className="card-img-top" alt="Card 1" />
+              <img src={z1} className="card-img-top " alt="Card 1" style={{ height: '500px', objectFit: 'cover' }} />
               <div className="card-body">
                 <h5 className="card-title"></h5>
                 <p className="card-text"></p>
                 <a
                   href="#"
-                  className="position-absolute bottom-0 start-0 w-100 bg-black text-white p-2 text-decoration-none"
+                  className="position-absolute bottom-0 start-0 w-10 bg-black text-white p-2 text-decoration-none"
                 >
                   Go somewhere &#8594;
                 </a>
@@ -41,16 +46,18 @@ function Industries() {
             </div>
           </div>
 
+
+
           {/* Card 2 */}
           <div className="col-md-3 mb-4">
             <div className="card position-relative" style={{ width: '16rem', height: '290px' }}>
-              <img src="" className="card-img-top" alt="Card 2" />
+              <img src={z2} className="card-img-top" alt="Card 2" style={{ height: '500px', objectFit: 'cover' }} />
               <div className="card-body">
                 <h5 className="card-title"></h5>
                 <p className="card-text"></p>
                 <a
                   href="#"
-                  className="position-absolute bottom-0 start-0 w-100 bg-black text-white p-2 text-decoration-none"
+                  className="position-absolute bottom-0 start-0 w-10 bg-black text-white p-2 text-decoration-none"
                 >
                   Go somewhere &#8594;
                 </a>
@@ -61,13 +68,13 @@ function Industries() {
           {/* Card 3 */}
           <div className="col-md-3 mb-4">
             <div className="card position-relative" style={{ width: '16rem', height: '290px' }}>
-              <img src="" className="card-img-top" alt="Card 3" />
+              <img src={z3} className="card-img-top" alt="Card 3" style={{ height: '500px', objectFit: 'cover' }} />
               <div className="card-body">
                 <h5 className="card-title"></h5>
                 <p className="card-text"></p>
                 <a
                   href="#"
-                  className="position-absolute bottom-0 start-0 w-100 bg-black text-white p-2 text-decoration-none"
+                  className="position-absolute bottom-0 start-0 w-10 bg-black text-white p-2 text-decoration-none"
                 >
                   Go somewhere &#8594;
                 </a>
@@ -78,13 +85,13 @@ function Industries() {
           {/* Card 4 */}
           <div className="col-md-3 mb-4">
             <div className="card position-relative" style={{ width: '16rem', height: '290px' }}>
-              <img src="" className="card-img-top" alt="Card 4" />
+              <img src={z4} className="card-img-top" alt="Card 4" style={{ height: '500px', objectFit: 'cover' }} />
               <div className="card-body">
                 <h5 className="card-title"></h5>
                 <p className="card-text"></p>
                 <a
                   href="#"
-                  className="position-absolute bottom-0 start-0 w-100 bg-black text-white p-2 text-decoration-none"
+                  className="position-absolute bottom-0 start-0 w-10 bg-black text-white p-2 text-decoration-none"
                 >
                   Go somewhere &#8594;
                 </a>

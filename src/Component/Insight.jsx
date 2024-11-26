@@ -1,4 +1,7 @@
 import React from 'react';
+import z5 from '../img/z5.webp'
+import z6 from '../img/z6.webp'
+import z7 from '../img/z7.webp'
 
 function Insight() {
   return (
@@ -18,12 +21,12 @@ function Insight() {
           {/* Card 1 */}
           <div className="col-md-4 mb-4">
             <div className="card " style={{ width: '16rem', height: '290px' }}>
-              <img src="..." className="card-img-top" alt="..." />
+              <img src={z5} className="card-img-top" alt="..." style={{ height: '500px', objectFit: 'cover' }} />
               <div className="card-body">
                 <h5 className="card-title"></h5>
                 <p className="card-text">
                 </p>
-                <a href="#" className="position-absolute bottom-0 start-0 w-10 bg-black text-white p-2 text-decoration-none" >Go somewhere &#8594;</a>
+                <a href="#" className="position-absolute bottom-0  start-0 w-10 bg-black text-white p-2 text-decoration-none" >Go somewhere &#8594;</a>
               </div>
             </div>
           </div>
@@ -31,7 +34,7 @@ function Insight() {
           {/* Card 2 */}
           <div className="col-md-4 mb-4">
             <div className="card" style={{ width: '16rem', height: '290px' }}>
-              <img src="..." className="card-img-top" alt="..." />
+              <img src={z6} className="card-img-top" alt="..." style={{ height: '500px', objectFit: 'cover' }} />
               <div className="card-body">
                 <h5 className="card-title"></h5>
                 <p className="card-text">
@@ -44,7 +47,7 @@ function Insight() {
           {/* Card 3 */}
           <div className="col-md-4 mb-4">
             <div className="card" style={{ width: '16rem', height: '290px' }}>
-              <img src="..." className="card-img-top" alt="..." />
+              <img src={z7} className="card-img-top" alt="..." style={{ height: '500px', objectFit: 'cover' }} />
               <div className="card-body">
                 <h5 className="card-title"></h5>
                 <p className="card-text">

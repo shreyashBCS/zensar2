@@ -1,5 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import z8 from '../img/z8.webp'
+import z9 from '../img/z-9.webp'
+import z11 from '../img/z-11.webp'
 
 function MediaCard() {
     return (
@@ -11,7 +14,7 @@ function MediaCard() {
                     <Card className="rounded shadow border-0">
                         <Card.Img
                             variant="top"
-                            src="https://www.bing.com/th?id=OIP.4siKIW3oZ4kEo0vkEVQ5hgHaLH&w=137&h=206&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+                            src={z8}
                             className="rounded-top"
                         />
                         <Card.Body className="bg-light">
@@ -37,7 +40,7 @@ function MediaCard() {
                     <Card className="rounded shadow border-0">
                         <Card.Img
                             variant="top"
-                            src="path-to-image2.jpg"
+                            src={z9}
                             className="rounded-top"
                         />
                         <Card.Body className="bg-light">
@@ -63,7 +66,7 @@ function MediaCard() {
                     <Card className="rounded shadow border-0">
                         <Card.Img
                             variant="top"
-                            src="path-to-image3.jpg"
+                            src={z11}
                             className="rounded-top"
                         />
                         <Card.Body className="bg-light">
@@ -88,8 +91,8 @@ function MediaCard() {
             <Row className="g-4"> {/* Second row */}
                 {/* Repeat your cards for the second row here */}
             </Row>
-            <div className="d-flex justify-content-center align-items-center vh-30 mt-20">
-                <button className="bg-black text-white p-2 rounded">View all</button>
+            <div className="d-flex justify-content-center align-items-center vh-30 mt-30">
+                <button className="bg-black text-white p-2 rounded mt-2">View all</button>
             </div>
         </Container>
     );
