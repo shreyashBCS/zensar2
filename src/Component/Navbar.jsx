@@ -1,8 +1,7 @@
 import React from "react";
 import { FaSearch } from 'react-icons/fa';  // FontAwesome icon
 import { Link } from 'react-router-dom';  // Import Link from react-router-dom
-
-import '../styles.css'
+import '../Component/NavStyle.css'
 
 function Navbar() {
     return (
@@ -41,15 +40,13 @@ function Navbar() {
                                 Industries
                             </Link>
                             <ul className="dropdown-menu ">
-                                <li><Link className="dropdown-item" >Hi-tech Engineering</Link></li>
-                                <li><Link className="dropdown-item" >Banking and Financial Services </Link></li>
-                                <li><Link className="dropdown-item" >Insurance</Link></li>
-                                <li><Link className="dropdown-item" >Healthcare and Life Sciences </Link></li>
-                                <li><Link className="dropdown-item" >Telecom </Link></li>
-                                <li><Link className="dropdown-item" >Consumer Services </Link></li>
-                                <li><Link className="dropdown-item" > Manufacturing </Link></li>
-
-
+                                <li><Link className="dropdown-item" to="#">Hi-tech Engineering</Link></li>
+                                <li><Link className="dropdown-item" to="#">Banking and Financial Services</Link></li>
+                                <li><Link className="dropdown-item" to="#">Insurance</Link></li>
+                                <li><Link className="dropdown-item" to="#">Healthcare and Life Sciences</Link></li>
+                                <li><Link className="dropdown-item" to="#">Telecom</Link></li>
+                                <li><Link className="dropdown-item" to="#">Consumer Services</Link></li>
+                                <li><Link className="dropdown-item" to="#">Manufacturing</Link></li>
                             </ul>
                         </li>
 

@@ -13,7 +13,7 @@ const Form = () => {
 
     return (
         <>
-            <div className=" bg-primary text-white p-4 mt-5" style={{ paddingTop: "150px" }}>
+            <div className=" bg-primary text-white p-4 mt-5 mb-0" style={{ paddingTop: "150px" }}>
                 <h3 className="mb-4">Send us a message</h3>
                 <h4 className="mb-4">We'd love to hear from you!</h4>
                 <form>
@@ -104,34 +104,38 @@ const Form = () => {
                     </div>
 
                     {/* Checkboxes Section */}
-                    <div className="form-check mt-3 d-flex ">
-                        <input
-                            className="form-check-input"
-                            type="checkbox"
-                            id="policyCheck"
-                            required
-                        />
-                        <label className="form-check-label" htmlFor="policyCheck">
-                                  I  agree with Zensar's privacy policy
-                        </label>
-                    </div>
-                    <div className="form-check mt-2 form-check mt-3 d-flex ">
-                        <input
-                            className="form-check-input"
-                            type="checkbox"
-                            id="emailConsent"
-                            required
-                        />
-                        <label className="form-check-label" htmlFor="emailConsent">
-                            I would like to subscribe to Zensar’s blogs, thought leadership assets, and updates                        </label>
+                    {/* Checkboxes Section */}
+                    {/* Checkboxes Section */}
+                    <div className="mt-4"> {/* Margin above the checkboxes for spacing */}
+                        <div className="form-check mb-3"> {/* Checkbox 1 */}
+                            <input
+                                className="form-check-input"
+                                type="checkbox"
+                                id="policyCheck"
+                                required
+                            />
+                            <label className="form-check-label" htmlFor="policyCheck">
+                                I agree with Zensar's privacy policy
+                            </label>
+                        </div>
+                        <div className="form-check mb-3"> {/* Checkbox 2 */}
+                            <input
+                                className="form-check-input"
+                                type="checkbox"
+                                id="emailConsent"
+                                required
+                            />
+                            <label className="form-check-label" htmlFor="emailConsent">
+                                I would like to subscribe to Zensar’s blogs, thought leadership assets, and updates
+                            </label>
+                        </div>
+                        <div> {/* Button Section */}
+                            <button className="btn btn-light" type="submit">
+                                Submit
+                            </button>
+                        </div>
                     </div>
 
-                    {/* Submit Button */}
-                    <div className="mt-4 form-check mt-3 d-flex ">
-                        <button className="btn btn-light " type="submit">
-                            Submit
-                        </button>
-                    </div>
                 </form>
             </div>
 
